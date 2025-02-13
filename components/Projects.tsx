@@ -19,20 +19,20 @@ const projects = [
     title: "Globo Aplausos",
     description:
       "A web application developed for Globo, Brazil's largest media company, that allows users to send virtual applause and reactions during live TV shows and events, enhancing viewer engagement and interaction.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-fQof6JW1DzXe3sPCQip52YFcI5vVif.png",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-atu5EtsLiZxFabZQPeHlTznL9UbLVj.png",
     url: "https://tools.ages.pucrs.br/globo-aplausos"
   },
   {
     title: "Connect Pharmacy",
     description: "Agencia Experimental de Engenharia de software 1",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ydMzSW7p2g3KXdFZniBMedlP2L76Y3.png",
     url: "https://github.com/Joao-Schwingel/Projet-AGES-1"
   },
 ]
 
 export default function Projects() {
   return (
-    <section className="py-20 bg-gray-900">
+    <section id="Projects" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -55,8 +55,8 @@ export default function Projects() {
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
-                width={300}
-                height={200}
+                width={12}
+                height={12}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">

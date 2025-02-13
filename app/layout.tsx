@@ -5,7 +5,7 @@ import type React from "react" // Import React
 export const metadata: Metadata = {
   title: "JoaoSchwingel - Full Stack Developer",
   description:
-    "Portfolio of John Doe, a senior full stack developer specializing in React, Node.js, and cloud technologies."
+    "Portfolio of João Schwingel, full stack developer specializing in React, Node.js, and cloud technologies."
 }
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" href="/favicon.png" />

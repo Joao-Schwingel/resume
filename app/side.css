@@ -1,0 +1,27 @@
+.indicator{
+    position: absolute;
+    background: oklch(.623 .214 259.815);
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+ul li:nth-child(1).active ~ .indicator{
+    transform: translateX(calc(56px*0));
+}   
+ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(calc(56px*1));
+}   
+ul li:nth-child(3).active ~ .indicator{
+    transform: translateX(calc(56px*2));
+}   
+ul li:nth-child(4).active ~ .indicator{
+    transform: translateX(calc(56px*3));
+}   
+ul li:nth-child(5).active ~ .indicator{
+    transform: translateX(calc(56px*4));
+}   
+ul li:nth-child(6).active ~ .indicator{
+    transform: translateX(calc(56px*5));
+}   
